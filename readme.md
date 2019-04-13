@@ -1,0 +1,2 @@
+This project is called Trillo and it is a fictional all in one booking app. It is just UI without any functionallity, the users can book a hotel, a flight, a car and a tour all in one platform.
+Please refer to the online course at https://www.udemy.com/advanced-css-and-sass/
