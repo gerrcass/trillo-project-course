@@ -4,7 +4,8 @@
     background-color: var(--color-grey-light-2);
     box-shadow: var(--shadow-dark);
 
-    min-height: 50rem;
+//    min-height: 50rem;
+    
 //    display: flex;
 //    flex-direction: column;
 //    flex-wrap: nowrap;
@@ -15,7 +16,7 @@
     font-size: 1.4rem; //so that this font-size can be inherited to the child elements which have already been set to 'inherit' (see input style)
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--color-grey-light-1);
+    border-bottom: var(--line);
     
     display: flex;
     justify-content:space-between;
@@ -29,11 +30,40 @@
 .sidebar{
     background-color: var(--color-grey-dark-1);
     flex:0 0 18%;
-    
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; //just remaining: keep default so we don't need to set "width: 100%;" on the .side-nav class;
+    justify-content:space-between;    
     
 }
 .hotel-view{
     background-color: #fff;
-    background-color: orangered;
     flex: 1;
-}    
+}
+
+.details{
+    font-size: 1.4rem; //to be inherited
+    
+    display: flex;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line) ;
+    padding: 4.5rem;
+}
+
+.description{
+    background-color: #fff;
+    box-shadow: var(--shadow-light); 
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+}
+
+.user-reviews{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
