@@ -410,8 +410,9 @@ body {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    border: 3px solid #fff;
-    margin-left: -2rem; }
+    border: 3px solid #fff; }
+    .recommend__photo:not(:last-child) {
+      margin-left: -2rem; }
 
 .review {
   background-color: #fff;
@@ -508,26 +509,3 @@ body {
   .btn:focus {
     animation: pulsate 1s infinite;
     outline: none; }
-
-.body {
-  background-color: #eee; }
-  .body .challenge {
-    border: 1px solid blue;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(3, 2fr) 1fr;
-    grid-template-rows: 1fr 2fr 4fr 1fr; }
-    .body .challenge > * {
-      background-color: rgba(0, 0, 0, 0.1); }
-    .body .challenge .header2 {
-      grid-row: 1 / 2;
-      grid-column: 1 / -1; }
-    .body .challenge .main2 {
-      grid-row: 3 / 4;
-      grid-column: 1 / span 3; }
-    .body .challenge .sidebar2 {
-      grid-row: 2 / 4;
-      grid-column: -2 / -1; }
-    .body .challenge .footer2 {
-      grid-row: -2 / -1;
-      grid-column: 1 / -1; }
